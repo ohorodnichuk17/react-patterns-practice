@@ -1,5 +1,3 @@
-import React from 'react';
-
 const AccordionItem = ({className, title, children}) => {
     return (
         <li className={className}>
