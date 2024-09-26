@@ -1,8 +1,14 @@
-# React + Vite
+# Accordion & Searchable List Components
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project provides two React components: an **Accordion** and a **SearchableList**. These components allow for creating collapsible content sections and searchable lists of items, respectively.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Accordion Component**: 
+  - A flexible, customizable accordion with multiple items.
+  - Automatically toggles content visibility on click.
+- **SearchableList Component**:
+  - Filters a list of items based on user input.
+  - Displays search results in real-time with a debounce for performance.
+
+<img width="1440" alt="Screenshot 2024-09-26 at 16 48 06" src="https://github.com/user-attachments/assets/47df7f40-0f34-4d06-ba7a-58e47f5ad815">
